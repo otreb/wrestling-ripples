@@ -16,7 +16,7 @@ data = [
 ]
 
 # Load into DataFrame
-df = pd.DataFrame(data)
+df = pd.read_csv('ripple_data.csv')
 
 # Streamlit UI
 st.title("Wrestling Ripple Effect Web")
